@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FragmentOtto</string>
+    <string name="text">Text</string>
+    <string name="fragment_top">Fragment Top</string>
+    <string name="fragment_bottom">Fragment Bottom</string>
+    <string name="add_remove_fragment">Add or Remove Fragment</string>
+    <string name="add_fragment">Add Fragment</string>
+    <string name="remove_fragment">Remove Fragment</string>
+    <string name="fragmentA_FragmentB">fragmentA FragmentB</string>
+
+
+</resources>

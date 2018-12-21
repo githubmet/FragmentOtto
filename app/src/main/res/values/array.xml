@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activity_names">
+        <item>P001FragmentAppCompat</item>
+        <item>P002AddRemoveFragment</item>
+        <item>P003FragmentLifecycle</item>
+        <item>P004AddFragmentXml</item>
+        <item>P005FragmentCommunication</item>
+        <item>P006FragComFaceToFace</item>
+    </string-array>
+</resources>
