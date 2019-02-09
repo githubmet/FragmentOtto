@@ -15,8 +15,8 @@ public class MainActivity extends ListActivity {
         super.onCreate(savedInstanceState);
 
         String[] activityNames=getResources().getStringArray(R.array.activity_names);
-        ArrayAdapter arrayAdapter=new ArrayAdapter(this,android.R.layout.simple_list_item_1);
-        arrayAdapter.addAll(activityNames);
+        ArrayAdapter arrayAdapter=new ArrayAdapter(this,
+                android.R.layout.simple_list_item_1,activityNames);
         setListAdapter(arrayAdapter);
     }
 

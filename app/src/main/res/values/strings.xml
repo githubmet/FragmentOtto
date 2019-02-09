@@ -7,6 +7,14 @@
     <string name="add_fragment">Add Fragment</string>
     <string name="remove_fragment">Remove Fragment</string>
     <string name="fragmentA_FragmentB">fragmentA FragmentB</string>
+    <string name="like_the_article">like the article</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="like_the_song">like the song</string>
+    <string name="article_like">article like</string>
+    <string name="article_thanks">article thanks</string>
+    <string name="show">show</string>
+    <string name="close">close</string>
 
 
 </resources>

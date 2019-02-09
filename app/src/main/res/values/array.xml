@@ -7,5 +7,6 @@
         <item>P004AddFragmentXml</item>
         <item>P005FragmentCommunication</item>
         <item>P006FragComFaceToFace</item>
+        <item>P007FragmentOverview</item>
     </string-array>
 </resources>
