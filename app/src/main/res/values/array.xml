@@ -8,5 +8,6 @@
         <item>P005FragmentCommunication</item>
         <item>P006FragComFaceToFace</item>
         <item>P007FragmentOverview</item>
+        <item>P008FragmentCodeLab</item>
     </string-array>
 </resources>

@@ -12,6 +12,8 @@ import hikmetanil.fragmentotto.fragment.P007Fragment;
 
 public class P007FragmentOverview extends AppCompatActivity implements View.OnClickListener {
 
+
+    //geri tuşu ile çıkamıyoruz!
     private Button buttonShowP007;
     private Boolean isFragmentDisplayed=false;
     static final String STATE_FRAGMENT="state_of_fragment_p002";
