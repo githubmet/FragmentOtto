@@ -14,8 +14,6 @@ import android.widget.TextView;
 import hikmetanil.fragmentotto.R;
 
 public class P003Fragment extends Fragment {
-
-
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);

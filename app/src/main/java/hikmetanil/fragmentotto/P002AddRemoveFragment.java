@@ -17,19 +17,21 @@ public class P002AddRemoveFragment extends AppCompatActivity {
     }
 
     public void onClickAddMtdP002(View view) {
-     FragmentManager fragmentManager= getSupportFragmentManager();
-     FragmentTransaction fragmentTransaction= fragmentManager.beginTransaction();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-     fragmentTransaction.add(R.id.relativeLayoutP002,new P002Fragment(),"first_fragment_p002");
-     fragmentTransaction.commit();
+        fragmentTransaction.add(R.id.relativeLayoutP002, new P002Fragment(), "first_fragment_p002");
+        fragmentTransaction.commit();
     }
 
     public void onClickRemoveMtdP002(View view) {
-        FragmentManager fragmentManager= getSupportFragmentManager();
-        FragmentTransaction fragmentTransaction= fragmentManager.beginTransaction();
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
-        Fragment fragment= fragmentManager.findFragmentByTag("first_fragment_p002");
-        fragmentTransaction.remove(fragment);
+        Fragment fragment = fragmentManager.findFragmentByTag("first_fragment_p002");
+        if(fragment != null) {
+            fragmentTransaction.remove(fragment);
+        }
         fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         fragmentTransaction.commit();
     }
